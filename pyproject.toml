@@ -14,9 +14,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.6"
+pytest = "^6.0.0"
 
 [tool.poetry.scripts]
 pls = 'pls:run'
-
-[tool.poetry.group.test.dependencies]
-pytest = "^6.0.0"
