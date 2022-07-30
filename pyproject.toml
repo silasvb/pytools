@@ -17,3 +17,6 @@ python = "^3.6"
 
 [tool.poetry.scripts]
 pls = 'pls:run'
+
+[tool.poetry.group.test.dependencies]
+pytest = "^6.0.0"
