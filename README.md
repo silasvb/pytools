@@ -11,3 +11,7 @@ In the root directory, run:
 To run an individual tool:
 
 `poetry run <toolname>`
+
+Or alternatively, launch the Poetry shell and make the tools globally accessible:
+
+`poetry shell`
