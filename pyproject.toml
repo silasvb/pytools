@@ -18,3 +18,11 @@ pytest = "^6.0.0"
 
 [tool.poetry.scripts]
 pls = 'pls:run'
+
+# pyproject.toml
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]
